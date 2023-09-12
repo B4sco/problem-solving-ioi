@@ -9,8 +9,17 @@
 
 ## Petite modification
 
-1. Créer un commit
-2. Ajouter le commit à la zone de transit
+
+2. Ajouter les modifications à **la zone de transit**
     ```bash
-    git add.
+    git add .
+    ```
+2. Créer un commit 
+    ```bash
+    git commit -m "Ajout mode d'emploi"
+    ```
+
 3. Pousser le commit sur le remote 
+    ```bash
+    git push
+    ```
